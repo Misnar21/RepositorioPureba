@@ -1,0 +1,35 @@
+
+<div class="row">
+    <div class="col-4">
+        <button onclick="ocultarBotones()" class="botonCancelar" name="boton2" id="boton2">
+            Ocultar Botones
+        </button>
+    </div>
+
+    <div class="col-4">
+        <button class="botonCancelar" name="boton2" id="botonCancelar">
+            Cancelar
+        </button>
+    </div>
+
+    <div class="col-4">
+        <button style="background-color: blue;" onclick="aceptar()" class="botonAgregar" name="boton1" id="boton1">
+            Aceptar
+        </button>
+    </div>
+</div>
+
+
+<script>
+    function aceptar()
+    {
+        console.log("Hola")
+    }
+
+    function ocultarBotones()
+    {
+        var botonCancelar = document.getElementById('botonCancelar')
+        botonCancelar.style.display = none;
+    }
+</script>
+

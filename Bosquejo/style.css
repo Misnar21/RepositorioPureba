@@ -1,0 +1,23 @@
+button
+{
+    background-color: red !important;
+    width: 50px;
+}
+
+.botonAgregar
+{
+    background-color: green;
+    width: 50px;
+}
+
+.botonCancelar
+{
+    background-color: red;
+    width: 50px;
+}
+
+div+button
+{
+    background-color: red !important;
+    width: 50px;
+}
